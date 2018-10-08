@@ -8,25 +8,32 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <!-- Title -->
         <title>CSS: Tic Tac Toe Board Game</title>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <!-- Styles CSS -->
         <link rel="stylesheet" href="styles.css">
     </head>
 
     <!-- Body -->
     <body>
+        <div class="container" id="board">
+            <div class="row" id="row1">
+                <h1>Tic Tac Toe</h1>
+            </div>
+            <div class="row" id="row2">
+                <div class="top left" id="squareA"></div>
+                <div class="top middle" id="squareB"></div>
+                <div class="top right" id="squareC"></div>
+            </div>
+            <div class="row" id="row3">
+                <div class="middle left" id="squareD"></div>
+                <div class="middle center" id="squareE"></div>
+                <div class="middle right" id="squareF"></div>
+            </div>
+            <div class="row" id="row4">
+                <div class="bottom left" id="squareG"></div>
+                <div class="bottom middle" id="squareH"></div>
+                <div class="bottom right" id="squareI"></div>
+            </div>
+        </div>
 
-        <!-- jQuery JS -->
-        <script
-            src="https://code.jquery.com/jquery-3.3.1.js"
-            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-            crossorigin="anonymous"></script>
-        <!-- Popper JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <!-- Bootstrap JS -->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <!-- Scripts JS -->
-        <script src="scripts.js"></script>
     </body>
 </html>
